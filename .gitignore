@@ -181,12 +181,7 @@ android/.idea/**/gradle.xml
 .idea/**/libraries/Dart_Packages.xml
 .idea/**/libraries/Dart_SDK.xml
 .idea/**/libraries/Flutter_Plugins.xml
-android/.idea/**/libraries/Gradle__and*
-android/.idea/**/libraries/Gradle__com*l
-android/.idea/**/libraries/Gradle__io*
-android/.idea/**/libraries/Gradle__jun*
-android/.idea/**/libraries/Gradle__net*
-android/.idea/**/libraries/Gradle__org*
+android/.idea/**/libraries
 
 # Gradle and Maven with auto-import
 # When using Gradle or Maven with auto-import, you should exclude module files,
@@ -194,10 +189,13 @@ android/.idea/**/libraries/Gradle__org*
 # auto-import.
 # .idea/artifacts
 # .idea/compiler.xml
+android/.idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
+android/.idea/modules.xml
 # .idea/*.iml
 # .idea/modules
+android/.idea/modules
 # *.iml
 # *.ipr
 
@@ -240,6 +238,7 @@ fabric.properties
 # *.iml
 # modules.xml
 # .idea/misc.xml
+android/.idea/misc.xml
 # *.ipr
 
 # Sonarlint plugin
@@ -301,6 +300,8 @@ hs_err_pid*
 # Package Files #
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+
+.idea/kotlinc.xml
 
 ### Linux ###
 *~
